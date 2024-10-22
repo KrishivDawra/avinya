@@ -1,0 +1,26 @@
+.modeloverlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.modelshow{
+    display: block;
+}
+.modeldiv{
+    width: 320px;
+    height: 320px;
+    position: fixed;
+    left: 50%;
+    transition: 0.3s;
+    top: -500px ;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 50px 15px rgba(255, 255, 255, 0.701);
+}
+.showmodeldiv{
+    top: 50%;
+}
